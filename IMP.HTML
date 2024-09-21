@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Important Questions</title>
+    <style>
+/* Base styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #e9ecef;
+    color: #343a40;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    padding: 20px;
+    flex: 1 1 300px;
+    max-width: 400px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+}
+
+.card h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #495057;
+}
+
+.card p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #6c757d;
+}
+
+/* Button styles */
+button {
+    background-color: #EAA636;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #d89c28;
+}
+
+/* Media queries */
+
+/* For devices with a max width of 1200px */
+@media (max-width: 1200px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+        max-width: none;
+    }
+}
+
+/* For devices with a max width of 768px */
+@media (max-width: 768px) {
+    body {
+        padding: 15px;
+    }
+
+    .card {
+        margin: 10px;
+    }
+
+    button {
+        width: 100%;
+    }
+}
+
+/* For devices with a max width of 480px */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    .card {
+        padding: 15px;
+    }
+
+    button {
+        padding: 10px;
+    }
+}
+
+    </style>
+</head>
+<body>
+
+    <h1>Java Important Questions</h1>
+
+    <h2>Grand Test-1</h2>
+    
+    <h3>Loops:</h3>
+    <ol>
+        <li><strong>Print the sequence from 1 to 100 using a <code>for</code> loop.</strong></li>
+        <li><strong>Print the sequence from 100, 98, 96, ... 2, 0 using a <code>for</code> loop.</strong></li>
+        <li><strong>Print the sequence 1, 2, 4, 8, 16, 32, ... 2048 using a <code>for</code> loop.</strong></li>
+        <li><strong>Print the alphabet sequence a, b, c, ... x, y, z using a <code>for</code> loop.</strong></li>
+        <li><strong>Print the sequence a, c, e, ... y using a <code>for</code> loop.</strong></li>
+        <li><strong>Print the sequence 100, 95, 90, ... 5, 0 using a <code>for</code> loop.</strong></li>
+    </ol>
+
+    <h3>Conditional Statements:</h3>
+    <ol>
+        <li><strong>Find the biggest of three numbers using <code>if-else-if</code>.</strong></li>
+        <li><strong>Check if a character is a vowel using a <code>switch</code> statement.</strong></li>
+        <li><strong>Determine if a number is negative or positive using an <code>if</code> statement.</strong></li>
+        <li><strong>Check if a year is a leap year using <code>if-else-if</code>.</strong></li>
+    </ol>
+
+    <h3>Arrays:</h3>
+    <ol>
+        <li><strong>Take an integer array of 10 numbers, and print the array in reverse.</strong></li>
+        <li><strong>Find the sum of array elements using a <code>for</code> loop.</strong></li>
+        <li><strong>Count how many even and odd numbers are in an array.</strong></li>
+        <li><strong>Print the sum of even numbers in an array.</strong></li>
+        <li><strong>Find the second largest number in an array.</strong></li>
+        <li><strong>Determine how many times each array element is repeating.</strong></li>
+        <li><strong>Move all 0's to the left side and 1's to the right side in an array containing 0's and 1's.</strong></li>
+        <li><strong>Copy elements from one array to another using a <code>for</code> loop.</strong></li>
+        <li><strong>Find common elements between two arrays.</strong></li>
+        <li><strong>Copy elements of one array into another in reverse order.</strong></li>
+        <li><strong>Copy elements from two arrays into a third array in the same sequence (first array1, then array2).</strong></li>
+        <li><strong>Find the difference between the sum of even and odd numbers in an array.</strong></li>
+        <li><strong>Print the array in reverse order.</strong></li>
+        <li><strong>Find the biggest element in an array of 10 integers.</strong></li>
+        <li><strong>Print the sum of numbers present in an array.</strong></li>
+        <li><strong>Copy even numbers into one array and odd numbers into another from a given array of 10 numbers.</strong></li>
+        <li><strong>Find the position of a number in an array. Print "number not available" if it’s not present.</strong></li>
+        <li><strong>Sort an array of 10 numbers in ascending order.</strong></li>
+    </ol>
+
+    <h3>Strings:</h3>
+    <ol>
+        <li><strong>Check if a string is a palindrome (do not use the <code>reverse()</code> function).</strong></li>
+        <li><strong>Replace vowels in a string with the letter 'z'.</strong></li>
+        <li><strong>Count how many words are in a string.</strong></li>
+        <li><strong>Print the words of a string in reverse order.</strong></li>
+    </ol>
+
+    <h2>GRAND TEST-2</h2>
+
+    <h3>Even-Odd Based Array Questions</h3>
+    <ol>
+        <li>Take an array of 10 numbers. Write logic for printing even numbers present in the array.</li>
+        <li>Take an array of 10 numbers. Write logic for printing even numbers present at even indexes of the array.</li>
+        <li>Take an array of 10 numbers. Write logic for printing odd numbers present in the array.</li>
+        <li>Take an array of 10 numbers. Write logic for printing odd numbers present at odd indexes of the array.</li>
+        <li>Take an array of 10 numbers. Write logic for calculating the sum of even numbers and the sum of odd numbers present in the array.</li>
+        <li>Take an array of 10 numbers. Write logic to calculate the average of the numbers present in the array.</li>
+        <li>Take an array of 10 numbers. Write logic to calculate the average of even numbers present in the array. Write logic to calculate the average of odd numbers present in the array.</li>
+        <li>Take an array of 10 numbers. Write logic for calculating the difference between the sum of even numbers and the sum of odd numbers present in the array. The difference should be printed as a positive number.</li>
+        <li>Take an array of 10 numbers. Write logic for printing even numbers and wherever odd numbers are present, you have to print "palle" in place of that number.</li>
+        <li>Take an array of 10 numbers. Write logic for printing the array numbers which are divisible by both 3 and 5.</li>
+        <li>Take an array of 10 numbers. Write logic for calculating the sum of numbers which are divisible by both 3 and 5.</li>
+        <li>Take an array of 10 numbers. Swap adjacent numbers, i.e., the 0th element should be copied into the 1st element and vice versa, the 2nd element should be copied into the 3rd element and vice versa, etc.</li>
+        <li>Take an array of 10 numbers. Count how many negative numbers are there in the array, and replace those elements with the value 0.</li>
+        <li>Take an array of 10 numbers. Read a number from the keyboard. Find the position of that number in the array. If the number is not available, you have to print "number is not available." Otherwise, you have to print the position of that number.</li>
+        <li>Take an array of 10 numbers. Read a number from the keyboard. Find the total occurrences of that number in the array.</li>
+        <li>Take <code>arr1</code> of 10 numbers. Take <code>arr2</code> of 10 numbers. Print common elements of <code>arr1</code> and <code>arr2</code>.</li>
+        <li>Take <code>arr1</code> of 10 numbers. Take <code>arr2</code> of 10 numbers. Print <code>arr1</code> elements which are not present in <code>arr2</code>.</li>
+        <li>Take <code>arr1</code> of 10 numbers. Take <code>arr2</code> of 10 numbers. Print <code>arr2</code> elements which are not present in <code>arr1</code>.</li>
+        <li>Take <code>arr1</code> of 10 numbers. Take <code>arr2</code> of 10 numbers. Print uncommon elements of <code>arr1</code> and <code>arr2</code>.</li>
+    </ol>
+
+    <h3>Array Copying Based Questions</h3>
+    <ol>
+        <li>Take <code>array1</code> of 10 numbers. Take an empty <code>array2</code> of the same size as <code>array1</code>. Write logic to copy <code>array1</code> elements into <code>array2</code>. Don't use <code>Arrays.copy()</code>.</li>
+        <li>Take <code>array1</code> of 10 numbers. Take an empty <code>array2</code> of the same size as <code>array1</code>. Write logic to copy every alternate element of <code>array1</code> into <code>array2</code>.</li>
+        <li>Take <code>array1</code> of 10 numbers. Take an empty <code>array2</code> of the same size as <code>array1</code>. Write logic to copy even indexed elements of <code>array1</code> into <code>array2</code>.</li>
+        <li>Take <code>array1</code> of 10 numbers. Take an empty <code>array2</code> of the same size as <code>array1</code>. Write logic to copy odd indexed elements of <code>array1</code> into <code>array2</code>.</li>
+        <li>Take <code>array1</code> of 10 numbers. Write logic to shift all elements of <code>array1</code> to the right by one position. (The last element should be discarded)</li>
+        <li>Take <code>array1</code> of 10 numbers. Write logic to shift all elements of <code>array1</code> to the left by one position. (The first element should be discarded)</li>
+    </ol>
+
+    <h3>Pattern Based Questions</h3>
+    <ol>
+        <li>Print a pattern of increasing stars, i.e., 1 star on the first line, 2 stars on the second line, ..., 10 stars on the tenth line.</li>
+        <li>Print a pattern of decreasing stars, i.e., 10 stars on the first line, 9 stars on the second line, ..., 1 star on the tenth line.</li>
+        <li>Print a pattern of stars forming a triangle.</li>
+        <li>Print a pattern of alternating stars and spaces.</li>
+        <li>Print a pyramid pattern of stars.</li>
+    </ol>
+
+</body>
+</html>
